@@ -7,7 +7,7 @@
     "dev": "nodemon server.js",
     "server": "node server.js",
     "client": "cd ../app && npm start",
-    "start": "concurrently \"npm run dev\" \"npm run client\""
+    "start": "node server.js"
   },
   "author": "Aymane Abdellah , Zakaria , Abdellatij",
   "license": "ISC",
