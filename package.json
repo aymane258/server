@@ -1,0 +1,25 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Security opdracht",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "server": "node server.js",
+    "client": "cd ../app && npm start",
+    "start": "concurrently \"npm run dev\" \"npm run client\""
+  },
+  "author": "Aymane Abdellah , Zakaria , Abdellatij",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.3.1",
+    "jwks-rsa": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
